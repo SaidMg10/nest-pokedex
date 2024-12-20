@@ -50,6 +50,11 @@ $ yarn run start:dev
 $ yarn run start:prod
 ```
 
+```bash
+# Reconstruir la base de datos con la seed
+localhost:3000/api/v2/seed
+```
+
 ## Run tests
 
 ```bash
