@@ -36,6 +36,9 @@ $ yarn install
 # levantar la base de datos
 docker compose up -d
 ```
+## Environment File Setup
+* Clone the __.env.template__ file and rename it to __.env__
+* Fill in the environment variables defined in the __.env__ file
 
 ## Compile and run the project
 
@@ -54,6 +57,7 @@ $ yarn run start:prod
 # Reconstruir la base de datos con la seed
 localhost:3000/api/v2/seed
 ```
+
 
 ## Run tests
 
